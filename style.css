@@ -1,0 +1,79 @@
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('images/clear.jpg');
+  overflow: hidden;
+  background-repeat: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.card{
+  background-color: #000000d0;
+  padding: 2em;
+  border-radius: 30px;
+  color: white;
+  max-width: 420px;
+  margin: 1em;
+  font-size: 120%;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover{
+  background-color: #7c7c7c6b;
+}
+
+.button{
+  margin: 0.5em;
+  height: 44px;
+  weight: 44px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.search-bar{
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background-color: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100%-100px)
+}
+.temp{
+  margin: 0;
+}
+.description{
+  font-size: 110%;
+}
+.humidity{
+  font-size: 80%;
+  margin: 0.5em 0;
+}
+
+.wind{
+  font-size: 80%;
+}
+
+.weather{
+  display: none;
+}
